@@ -1,0 +1,15 @@
+C:\Users\walter white\source\repos\CLI_Mastermind\CLI_Mastermind\bin\Debug\net6.0\CLI_Mastermind.exe
+C:\Users\walter white\source\repos\CLI_Mastermind\CLI_Mastermind\bin\Debug\net6.0\CLI_Mastermind.deps.json
+C:\Users\walter white\source\repos\CLI_Mastermind\CLI_Mastermind\bin\Debug\net6.0\CLI_Mastermind.runtimeconfig.json
+C:\Users\walter white\source\repos\CLI_Mastermind\CLI_Mastermind\bin\Debug\net6.0\CLI_Mastermind.dll
+C:\Users\walter white\source\repos\CLI_Mastermind\CLI_Mastermind\bin\Debug\net6.0\CLI_Mastermind.pdb
+C:\Users\walter white\source\repos\CLI_Mastermind\CLI_Mastermind\obj\Debug\net6.0\CLI_Mastermind.csproj.AssemblyReference.cache
+C:\Users\walter white\source\repos\CLI_Mastermind\CLI_Mastermind\obj\Debug\net6.0\CLI_Mastermind.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\walter white\source\repos\CLI_Mastermind\CLI_Mastermind\obj\Debug\net6.0\CLI_Mastermind.AssemblyInfoInputs.cache
+C:\Users\walter white\source\repos\CLI_Mastermind\CLI_Mastermind\obj\Debug\net6.0\CLI_Mastermind.AssemblyInfo.cs
+C:\Users\walter white\source\repos\CLI_Mastermind\CLI_Mastermind\obj\Debug\net6.0\CLI_Mastermind.csproj.CoreCompileInputs.cache
+C:\Users\walter white\source\repos\CLI_Mastermind\CLI_Mastermind\obj\Debug\net6.0\CLI_Mastermind.dll
+C:\Users\walter white\source\repos\CLI_Mastermind\CLI_Mastermind\obj\Debug\net6.0\refint\CLI_Mastermind.dll
+C:\Users\walter white\source\repos\CLI_Mastermind\CLI_Mastermind\obj\Debug\net6.0\CLI_Mastermind.pdb
+C:\Users\walter white\source\repos\CLI_Mastermind\CLI_Mastermind\obj\Debug\net6.0\CLI_Mastermind.genruntimeconfig.cache
+C:\Users\walter white\source\repos\CLI_Mastermind\CLI_Mastermind\obj\Debug\net6.0\ref\CLI_Mastermind.dll
