@@ -10,6 +10,8 @@ namespace ConsoleMastermind
             int codeLength = 0;
             int guessCount = 0;
             bool success = false;
+            
+            // Prompt and validate the desired code length
             while (!success)
             {
                 Console.WriteLine("Enter the desired code length:");
@@ -21,6 +23,8 @@ namespace ConsoleMastermind
                 }
             }
             success = false;
+            
+            // Prompt and validate the number of guesses
             while (!success)
             {
                 Console.WriteLine("Enter the number of guesses you would like to have:");
@@ -35,6 +39,7 @@ namespace ConsoleMastermind
             Random random = new();
             int[] secretCode = new int[codeLength];
 
+            // Generate the secret code
             for (int i = 0; i < codeLength; i++)
             {
                 secretCode[i] = random.Next(1, 9);
@@ -43,6 +48,8 @@ namespace ConsoleMastermind
             _ = new int[codeLength];
             bool isCorrect = false;
             Console.WriteLine($"The Secret Code Has Been Set with a length of {codeLength}, you have {guessCount} attempts to try and crack it!!!");
+
+            // Game loop
             while (guessCount > 0)
             {
 
@@ -69,6 +76,8 @@ namespace ConsoleMastermind
                     }
 
                     int redPegs = 0, whitePegs = 0;
+
+                    // Count red pegs
                     for (int i = 0; i < codeLength; i++)
                     {
                         if (userGuess[i] == secretCode[i])
@@ -78,6 +87,8 @@ namespace ConsoleMastermind
                             continue;
                         }
                     }
+
+                    // Count white pegs
                     for (int i = 0; i < codeLength; i++)
                     {
                         if (redVisited[i])
@@ -102,6 +113,7 @@ namespace ConsoleMastermind
                         }
                     }
 
+                    // Check if the user guessed the secret code correctly
                     if (redPegs == secretCode.Length)
                     {
                         Console.WriteLine("\nCongratulations! You guessed the secret code correctly.\n");
@@ -129,14 +141,17 @@ namespace ConsoleMastermind
             }
             // Prompt to play again or quit
             bool validResponse = false;
+
+            // Prompt to play again or quit
             while (!validResponse)
             {
                 Console.Write("\nDo you want to play again? (Y/N): ");
                 string playAgain = Console.ReadLine().ToLower();
                 if (playAgain == "y" || playAgain == "yes")
                 {
+                    // Restart the game
                     Console.Clear();
-                    RunMastermind(); // Restart the game
+                    RunMastermind(); 
                     validResponse = true;
                 }
                 else if (playAgain == "n" || playAgain == "no")
