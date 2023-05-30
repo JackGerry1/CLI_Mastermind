@@ -126,6 +126,29 @@ namespace ConsoleMastermind
                         }
                     }
                 }
+                // Prompt to play again or quit
+                bool validResponse = false;
+                while (!validResponse)
+                {
+                    Console.WriteLine("\nDo you want to play again? (Y/N)\n");
+                    string playAgain = Console.ReadLine().ToLower();
+                    if (playAgain == "y" || playAgain == "yes")
+                    {
+                        Console.Clear();
+                        RunMastermind(); // Restart the game
+                        validResponse = true;
+                    }
+                    else if (playAgain == "n" || playAgain == "no")
+                    {
+                        Environment.Exit(0);
+                        validResponse = true;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid input. Please enter 'Y' or 'N'.");
+                    }
+                }
+
             }
             void RevealSecret()
             {
