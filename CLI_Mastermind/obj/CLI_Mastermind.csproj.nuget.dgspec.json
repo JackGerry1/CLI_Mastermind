@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\walter white\\source\\repos\\CLI_Mastermind\\CLI_Mastermind\\CLI_Mastermind.csproj": {}
+    "C:\\Users\\walter white\\Source\\Repos\\CLI_Mastermind\\CLI_Mastermind\\CLI_Mastermind.csproj": {}
   },
   "projects": {
-    "C:\\Users\\walter white\\source\\repos\\CLI_Mastermind\\CLI_Mastermind\\CLI_Mastermind.csproj": {
+    "C:\\Users\\walter white\\Source\\Repos\\CLI_Mastermind\\CLI_Mastermind\\CLI_Mastermind.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\walter white\\source\\repos\\CLI_Mastermind\\CLI_Mastermind\\CLI_Mastermind.csproj",
+        "projectUniqueName": "C:\\Users\\walter white\\Source\\Repos\\CLI_Mastermind\\CLI_Mastermind\\CLI_Mastermind.csproj",
         "projectName": "CLI_Mastermind",
-        "projectPath": "C:\\Users\\walter white\\source\\repos\\CLI_Mastermind\\CLI_Mastermind\\CLI_Mastermind.csproj",
+        "projectPath": "C:\\Users\\walter white\\Source\\Repos\\CLI_Mastermind\\CLI_Mastermind\\CLI_Mastermind.csproj",
         "packagesPath": "C:\\Users\\walter white\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\walter white\\source\\repos\\CLI_Mastermind\\CLI_Mastermind\\obj\\",
+        "outputPath": "C:\\Users\\walter white\\Source\\Repos\\CLI_Mastermind\\CLI_Mastermind\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\walter white\\AppData\\Roaming\\NuGet\\NuGet.Config",
