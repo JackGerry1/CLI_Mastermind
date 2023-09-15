@@ -62,6 +62,12 @@ namespace ConsoleMastermind
 
                 int[] userGuess = new int[input.Length];
 
+                if (userGuess.Length != codeLength) // Check if the length of the input matches the code length
+                {
+                    Console.WriteLine($"Invalid input. Please enter a guess with a length of {codeLength}.");
+                    continue; // Restart the loop
+                }
+
                 if (userGuess.Length == codeLength)
                 {
                     for (int i = 0; i < input.Length; i++)
